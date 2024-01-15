@@ -135,7 +135,7 @@ fn make_randomly_initialized_nn_with_shape(shape: Vec<usize>) {
             inputs.push(make_empty_inputs_of_len(shape[i], 0));
         }
         else {
-                inputs.push(make_random_inputs(shape[i],1));
+            inputs.push(make_random_inputs(shape[i],1));
         }
     }
 
